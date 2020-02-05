@@ -20,9 +20,12 @@ for (j = i + 1; j < size; j++)
 if (array[j] < array[x])
 x = j;
 }
+if (x != i)
+{
 tmp = array[i];
 array[i] = array[x];
 array[x] = tmp;
+}
 print_array(array, size);
 }
 }
