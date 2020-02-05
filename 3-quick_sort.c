@@ -33,4 +33,5 @@ tmp = array[p];
 array[p] = array[j];
 array[j] = tmp;
 quick_sort(array, j - 1);
+print_array(array, size);
 }
