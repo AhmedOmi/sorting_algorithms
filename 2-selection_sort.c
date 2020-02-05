@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include "sort.h"
 /**
- * main - Entry point
- *
- * Return: Always 0
+ * selectio_sort - function to sorted selection
+ * @array: pointer of int
+ * @size: size of array
+ * Return: void
  */
 void selection_sort(int *array, size_t size)
 {
@@ -22,6 +23,6 @@ x = j;
 tmp = array[i];
 array[i] = array[x];
 array[x] = tmp;
-print_array(array,size);
+print_array(array, size);
 }
 }
