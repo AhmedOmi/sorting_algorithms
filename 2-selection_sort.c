@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "sort.h"
 /**
- * selectio_sort - function to sorted selection
+ * selection_sort - function to sorted selection
  * @array: pointer of int
  * @size: size of array
  * Return: void
