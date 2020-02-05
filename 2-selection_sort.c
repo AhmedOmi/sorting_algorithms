@@ -25,7 +25,7 @@ if (x != i)
 tmp = array[i];
 array[i] = array[x];
 array[x] = tmp;
-}
 print_array(array, size);
+}
 }
 }
